@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="1.0">
+  <constants>
+  </constants>
+  <classes>
+  </classes>
+  <menus>
+  </menus>
+  <portals>
+    <portal id="legacy_portal" _delta="delete"/>
+    <portal id="my_favorite_portal" _delta="define">
+      <url>pages/exec.php?exec_module=sample-portal&amp;exec_page=portal1.php</url>
+      <rank>1</rank>
+      <handler/>
+      <allow/>
+      <deny/>
+    </portal>
+    <portal id="my_alternate_portal" _delta="define">
+      <url>pages/exec.php?exec_module=sample-portal&amp;exec_page=portal2.php</url>
+      <rank>2</rank>
+      <handler/>
+      <allow/>
+      <deny/>
+    </portal>
+  </portals>
+</itop_design>
